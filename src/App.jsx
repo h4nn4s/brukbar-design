@@ -1,10 +1,20 @@
+import { useState } from "react";
+
 import Layout from "./components/Layout/Layout";
-import Gallery from "./components/Gallery/Gallery";
+import ProductSection from "./components/ProductSection/ProductSection";
+
+import products from "./data/products";
 
 function App() {
+  const [selectedProduct, setSelectedProduct] = useState(products[0]);
+
   return (
     <Layout>
-      <Gallery />
+      <ProductSection
+        products={products}
+        selectedProduct={selectedProduct}
+        onSelectProduct={setSelectedProduct}
+      />
     </Layout>
   );
 }

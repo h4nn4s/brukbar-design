@@ -1,9 +1,14 @@
 import styles from "./Header.module.css";
+import logo from "../../assets/images/logo.jpg";
 
 function Header() {
     return (
         <header className= {styles.header}>
-            <h1 className={styles.logo}>Brukbar Design</h1>
+            <img 
+            src={logo}
+            alt="Brukbar Design"
+            className={styles.logo}
+            />
 
             <nav>
                 <a href="#" className={styles.navLink}>

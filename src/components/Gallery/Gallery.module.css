@@ -1,0 +1,17 @@
+.gallery {
+  overflow-x: auto;
+  padding: 2rem 3rem;
+
+  /* Vi döljer scrollbaren senare om vi vill */
+}
+
+.galleryGrid {
+  display: grid;
+
+  grid-auto-flow: column;
+  grid-template-rows: repeat(2, 1fr);
+
+  gap: 2.5rem;
+
+  width: max-content;
+}

@@ -8,9 +8,8 @@
 }
 
 .logo {
-    font-size: 1.8rem;
-    font-weight: 600;
-    letter-spacing: 0.08rem;
+  height: 55px;
+  width: auto;
 }
 
 .navLink {
