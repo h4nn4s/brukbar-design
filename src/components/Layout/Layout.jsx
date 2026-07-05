@@ -11,7 +11,14 @@ function Layout({ children }) {
             </main>
 
             <footer className={styles.footer}>
-                Footer
+                <div>
+                    <strong>Brukbar Design</strong>
+                </div>
+
+                <div>
+                    <p>info@brukbardesign.se</p>
+                    <p>+46 XX XXX XX XX</p>
+                </div>
             </footer>
         </div>
     );

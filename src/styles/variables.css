@@ -1,0 +1,9 @@
+:root {
+  --primary-red: #b32025;
+
+  --border-radius: 16px;
+
+  --content-width: 1400px;
+
+  --transition: 0.2s ease;
+}

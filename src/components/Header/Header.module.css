@@ -1,14 +1,13 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    padding: 2rem 4rem;
-    border-bottom: 1px solid #e5e5e5;
+  padding: 2rem 4rem;
 }
 
 .logo {
-  height: 55px;
+  height: 75px;
   width: auto;
 }
 
@@ -21,4 +20,26 @@
 
 .navLink:hover {
     color: #b11d1d;
+}
+
+.navButton {
+  background: rgba(255, 255, 255, 0.15);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  color: white;
+
+  padding: 0.7rem 1.4rem;
+
+  border-radius: 999px;
+
+  cursor: pointer;
+
+  font-size: 0.95rem;
+
+  transition: background 0.2s ease;
+}
+
+.navButton:hover {
+  background: rgba(255, 255, 255, 0.3);
 }

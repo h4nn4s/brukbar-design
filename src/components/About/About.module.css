@@ -1,0 +1,19 @@
+.about {
+  max-width: 800px;
+
+  margin: 0 auto;
+
+  padding: 4rem 0;
+
+  color: white;
+}
+
+.about h1 {
+  margin-bottom: 2rem;
+}
+
+.about p {
+  line-height: 1.8;
+
+  margin-bottom: 1.5rem;
+}

@@ -1,21 +1,35 @@
 .layout {
-    min-height: 100vh;
+  min-height: 100vh;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+
+  background-image: url("../../assets/background/kolme.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .main {
   flex: 1;
 
-  max-width: 1400px;
-  width: 100%;
+  padding: 0rem 4rem 3rem;
 
-  margin: 0 auto;
-
-  padding: 0 4rem;
 }
 
 .footer {
-    padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem 4rem;
+
+  color: white;
+
+  font-size: 0.95rem;
+}
+
+.footer p {
+  margin: 0.2rem 0;
 }

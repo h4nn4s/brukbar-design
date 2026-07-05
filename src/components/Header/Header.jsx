@@ -1,5 +1,6 @@
 import styles from "./Header.module.css";
 import logo from "../../assets/images/logo.jpg";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -10,10 +11,10 @@ function Header() {
             className={styles.logo}
             />
 
-            <nav>
-                <a href="#" className={styles.navLink}>
-                    Om oss
-                </a>
+            <nav className={styles.nav}>
+                <Link to="/about" className={styles.navButton}>
+                Om oss
+                </Link>
             </nav>
         </header>
     );

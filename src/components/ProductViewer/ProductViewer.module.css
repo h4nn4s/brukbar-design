@@ -3,19 +3,26 @@
 
   display: flex;
   align-items: flex-start;
+  gap: 5rem;
 
-  gap: 4rem;
+  height: 500px;
+
+  padding: 3rem;
+
+  background: rgba(255, 255, 255, 0.92);
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 .image {
-  width: 520px;
+  width: 500px;
   height: auto;
-  aspect-ratio: 16 / 10;
-
-  object-fit: cover;
 
   border-radius: 16px;
 
+  transition: opacity 0.2s ease;
 }
 
 .info {
@@ -24,9 +31,28 @@
 }
 
 .info h2 {
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+
+  margin-bottom: 0.8rem;
 }
 
+.info h2::after {
+  content: "";
+
+  display: block;
+
+  width: 70px;
+  height: 1.5px;
+
+  margin-top: 0.7rem;
+
+  background-color: #b32025;
+
+  border-radius: 999px;
+}
 .info p {
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
 }

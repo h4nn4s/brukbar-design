@@ -1,8 +1,20 @@
-.gallery {
-  overflow-x: auto;
-  padding: 2rem 3rem;
+.galleryWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
 
-  /* Vi döljer scrollbaren senare om vi vill */
+.gallery {
+  max-width: 980px;
+  overflow-x: auto;
+  padding: 0rem 0;
+
+  scrollbar-width: none;
+}
+
+.gallery::-webkit-scrollbar {
+  display: none;
 }
 
 .galleryGrid {
@@ -11,7 +23,15 @@
   grid-auto-flow: column;
   grid-template-rows: repeat(2, 1fr);
 
-  gap: 2.5rem;
+  gap: 1.5rem;
 
   width: max-content;
+}
+
+.arrow {
+  font-size: 2rem;
+  color: #b32025;
+
+
+  user-select: none;
 }
