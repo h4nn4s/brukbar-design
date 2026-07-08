@@ -1,19 +1,57 @@
 .about {
-  max-width: 800px;
+  display: flex;
+  align-items: flex-start;
 
-  margin: 0 auto;
+  gap: 4rem;
 
-  padding: 4rem 0;
+  margin-top: 3rem;
 
-  color: white;
+  min-height: 500px;
+
+  padding: 3rem;
+
+  background: rgba(255, 255, 255, 0.92);
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
-.about h1 {
-  margin-bottom: 2rem;
+.image {
+  width: 500px;
+
+  border-radius: 16px;
 }
 
-.about p {
+.info {
+  flex: 1;
+}
+
+.info h2 {
+  font-size: 2rem;
+
+  margin-bottom: 0.8rem;
+}
+
+.info h2::after {
+  content: "";
+
+  display: block;
+
+  width: 70px;
+  height: 3px;
+
+  margin-top: 0.7rem;
+
+  background: #b32025;
+
+  border-radius: 999px;
+}
+
+.info p {
   line-height: 1.8;
+
+  color: #444;
 
   margin-bottom: 1.5rem;
 }

@@ -1,19 +1,28 @@
 import styles from "./About.module.css";
+import aboutImage from "../../assets/images/about/about.jpg";
 
 function About() {
   return (
     <section className={styles.about}>
-      <h1>Om Brukbar Design</h1>
+      <img
+        src={aboutImage}
+        alt="Brukbar Design"
+        className={styles.image}
+      />
 
-      <p>
-        Brukbar Design utvecklar och tillverkar belysningsarmaturer med fokus
-        på funktion, kvalitet och tidlös formgivning.
-      </p>
+      <div className={styles.info}>
+        <h2>Om Brukbar Design</h2>
 
-      <p>
-        Genom nära samarbete med kunder och arkitekter skapas lösningar som
-        fungerar lika bra i offentliga miljöer som i privata projekt.
-      </p>
+        <p>
+          Brukbar Design utvecklar och tillverkar belysningsarmaturer med fokus
+          på funktion, kvalitet och tidlös formgivning.
+        </p>
+
+        <p>
+          Genom nära samarbete med kunder och arkitekter skapas lösningar som
+          fungerar lika bra i offentliga miljöer som i privata projekt.
+        </p>
+      </div>
     </section>
   );
 }
