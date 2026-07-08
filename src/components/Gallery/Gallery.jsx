@@ -11,7 +11,7 @@ function Gallery({ products, selectedProduct, onSelectProduct }) {
             <ProductCard
               key={product.id}
               product={product}
-              selected={product.id === selectedProduct.id}
+              selected={selectedProduct?.id === product.id}
               onClick={() => onSelectProduct(product)}
             />
           ))}
