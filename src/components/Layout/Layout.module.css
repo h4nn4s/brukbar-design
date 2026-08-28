@@ -33,3 +33,14 @@
 .footer p {
   margin: 0;
 }
+
+@media (max-width: 700px) {
+  .main {
+    padding: 0 1rem 1rem;
+  }
+
+  .footer {
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+}
