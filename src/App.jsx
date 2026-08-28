@@ -5,7 +5,7 @@ import products from "./data/products";
 
 function App() {
   const [selectedProduct, setSelectedProduct] = useState(products[0]);
-  const [view, setView] = useState("products");
+  const [view, setView] = useState("home");
 
   return (
     <Layout 
@@ -16,6 +16,7 @@ function App() {
         products={products}
         selectedProduct={selectedProduct}
         view={view}
+        setView={setView}
         onSelectProduct={(product) => {
           setSelectedProduct(product);
           setView("products");

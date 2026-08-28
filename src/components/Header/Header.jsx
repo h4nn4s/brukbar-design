@@ -4,12 +4,18 @@ import logo from "../../assets/images/logo.jpg";
 function Header({ view, setView }) {
   return (
     <header className={styles.header}>
-      <img
-        src={logo}
-        alt="Brukbar Design"
-        className={styles.logo}
-      />
-
+      <button
+        className={styles.logoButton}
+        onClick={() => setView("home")}
+      >
+        <img
+          src={logo}
+          alt="Brukbar Design"
+          className={styles.logo}
+        />
+      
+      </button>
+      
       <button
         className={
             view === "about"

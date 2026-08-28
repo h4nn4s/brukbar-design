@@ -1,0 +1,57 @@
+.landing {
+  min-height: 60vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.content {
+  max-width: 650px;
+
+  padding: 3rem;
+
+  color: #666666;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: 500;
+
+  margin-bottom: 1.5rem;
+  color: #b32025;
+}
+
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+
+  margin-bottom: 2rem;
+  
+}
+
+.button {
+  background: rgba(255, 255, 255, 0.15);
+
+  border: 1px solid #b32025;
+
+  color: #b32025;
+
+  padding: 0.7rem 1.4rem;
+
+  border-radius: 999px;
+
+  cursor: pointer;
+
+  font-size: 0.95rem;
+
+  transition: background 0.2s ease;
+}
+
+.button:hover {
+  background: #b32025;
+
+  color: white;
+}
