@@ -1,0 +1,59 @@
+.panel {
+  margin-top: 1rem;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 4rem;
+
+  height: 400px;
+
+  padding: 2.25rem;
+
+  background: rgba(255, 255, 255, 0.92);
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.image {
+  width: 500px;
+  height: 400px;
+
+  object-fit: cover;
+
+  border-radius: 16px;
+}
+
+.info {
+  max-width: 500px;
+  text-align: left;
+}
+
+.info h2 {
+  font-size: 2rem;
+  font-weight: 500;
+
+  margin-bottom: 0.8rem;
+}
+
+.info h2::after {
+  content: "";
+
+  display: block;
+
+  width: 70px;
+  height: 1.5px;
+
+  margin-top: 0.7rem;
+
+  background: #b32025;
+
+  border-radius: 999px;
+}
+
+.info p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+}
