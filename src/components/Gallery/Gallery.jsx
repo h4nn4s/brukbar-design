@@ -27,7 +27,7 @@ function Gallery({ products, selectedProduct, onSelectProduct }) {
   return (
     <section className={styles.galleryWrapper}>
       <button
-        className={`${styles.arrow} ${!canScrollLeft ? styles.hidden : ""}`}
+        className={`${styles.arrow} ${styles.left} ${!canScrollLeft ? styles.hidden : ""}`}
         onClick={() =>
           galleryRef.current.scrollBy({
             left: -galleryRef.current.clientWidth * 0.7,
@@ -56,7 +56,7 @@ function Gallery({ products, selectedProduct, onSelectProduct }) {
       </section>
 
       <button
-        className={`${styles.arrow} ${!canScrollRight ? styles.hidden : ""}`}
+        className={`${styles.arrow} ${styles.right} ${!canScrollRight ? styles.hidden : ""}`}
         onClick={() =>
           galleryRef.current.scrollBy({
             left: galleryRef.current.clientWidth * 0.7,

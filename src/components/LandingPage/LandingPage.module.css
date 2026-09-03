@@ -19,9 +19,25 @@
 .content h1 {
   font-size: 3rem;
   font-weight: 500;
-
   margin-bottom: 1.5rem;
   color: #b32025;
+
+  opacity: 0;
+  transform: translateY(15px);
+
+  animation: fadeInUp 2.1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .content p {
@@ -33,25 +49,44 @@
 }
 
 .button {
-  background: rgba(255, 255, 255, 0.15);
+  position: relative;
+  overflow: hidden;
 
+  background: rgba(255, 255, 255, 0.2);
   border: 1px solid #b32025;
-
   color: #b32025;
 
   padding: 0.7rem 1.4rem;
-
   border-radius: 999px;
 
   cursor: pointer;
-
   font-size: 0.95rem;
 
-  transition: background 0.2s ease;
+  transition:
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: #b32025;
+
+  transform: scaleX(0);
+  transform-origin: left;
+
+  transition: transform 0.25s ease;
+
+  z-index: -1;
+}
+
+.button:hover::before {
+  transform: scaleX(1);
 }
 
 .button:hover {
-  background: #b32025;
-
-  color: white;
+  color: #b32025;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.20);
 }
