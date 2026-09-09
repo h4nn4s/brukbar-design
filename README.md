@@ -1,26 +1,22 @@
 # Brukbar Design
 
-A React-based website developed for Brukbar Design to showcase handcrafted lighting products in a clean and modern interface.
+En webbplats för Brukbar Design, byggd med React.
+
+Tanken med sidan är att visa företagets produkter och ge besökare grundläggande information om företaget.
 
 ## Live Demo
 
 https://h4nn4s.github.io/brukbar-design/
 
-## Built With
+## Byggt med
 
 - React
 - Vite
 - JavaScript
 - CSS Modules
-- Git & GitHub
 
-## Features
+## Om projektet
 
-- Interactive product gallery
-- Product viewer
-- About section
-- Responsive design (in progress)
+Det här är ett portfolioprojekt där jag har fokuserat på att bygga en enkel och responsiv produktsida med en komponentbaserad struktur.
 
-## Status
-
-This project is currently under active development!
+Projektet är fortfarande under utveckling.
