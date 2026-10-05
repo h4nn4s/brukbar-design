@@ -4,6 +4,7 @@ import logo from "../../assets/images/logo.jpg";
 function Header({ view, setView }) {
   return (
     <header className={styles.header}>
+      {/*logga fungerar som hemknapp för att hålla navigationen enkel */}
       <button
         className={styles.logoButton}
         onClick={() => setView("home")}

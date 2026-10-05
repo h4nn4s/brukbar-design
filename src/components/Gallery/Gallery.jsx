@@ -5,9 +5,11 @@ import styles from "./Gallery.module.css";
 function Gallery({ products, selectedProduct, onSelectProduct }) {
   const galleryRef = useRef(null);
 
+  // håller koll på om galleriet går att scrolla åt vänster eller höger
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
 
+  // uppdaterar pilarna så att bar amöjliga scrollriktningar visas
   const updateScrollButtons = () => {
     const gallery = galleryRef.current;
     if (!gallery) return;
@@ -16,7 +18,7 @@ function Gallery({ products, selectedProduct, onSelectProduct }) {
 
     setCanScrollRight(
       gallery.scrollLeft <
-        gallery.scrollWidth - gallery.clientWidth - 1
+      gallery.scrollWidth - gallery.clientWidth - 1
     );
   };
 
@@ -38,6 +40,7 @@ function Gallery({ products, selectedProduct, onSelectProduct }) {
         ❮
       </button>
 
+      {/* produkter visas i ett horisontellt scrollbarrt galleri för att hålla sidan kompakt */}
       <section
         ref={galleryRef}
         className={styles.gallery}

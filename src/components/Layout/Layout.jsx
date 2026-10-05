@@ -2,6 +2,7 @@ import styles from "./Layout.module.css";
 import Header from "../Header/Header";
 
 function Layout({ children, view, setView }) {
+  // samlar sidans gemensamma delar så att header och footer kan återanvändas i alla vyer
   return (
     <div className={styles.layout}>
       <Header view={view} setView={setView} />

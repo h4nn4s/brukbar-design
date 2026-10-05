@@ -4,6 +4,7 @@ import ProductSection from "./components/ProductSection/ProductSection";
 import products from "./data/products";
 
 function App() {
+  // eftersom sidan är liten räcker det att hålla aktuell vy i state istället för att använda routing
   const [selectedProduct, setSelectedProduct] = useState(products[0]);
   const [view, setView] = useState("home");
 
