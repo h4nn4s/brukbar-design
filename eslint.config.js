@@ -4,6 +4,7 @@ import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
+// hjälper till att fånga upp vanliga fel och hålla kod konsekvent
 export default defineConfig([
   globalIgnores(['dist']),
   {
