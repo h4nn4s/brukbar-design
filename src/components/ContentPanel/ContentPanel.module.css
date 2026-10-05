@@ -1,4 +1,5 @@
 .panel {
+  /* transparent bakgrund som låter bakgrundsbilden synas igenom */
   margin-top: 1rem;
 
   display: flex;
@@ -71,6 +72,7 @@
   color: #444;
 }
 
+/* på mindre skärmar staplas bild + text för att behålla en tydlig layout */
 @media (max-width: 900px) {
   .panel {
     height: auto;

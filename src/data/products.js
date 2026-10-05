@@ -3,6 +3,8 @@ import pari from "../assets/images/products/pari.jpg";
 import embla from "../assets/images/products/embla.jpg";
 import mullbaret from "../assets/images/products/mullbaret.jpg";
 
+
+// produktinfo ligger lokalt pga sidan i nuläget inte behöver en databas eller ett backend
 const products = [
   {
     id: 1,

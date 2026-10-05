@@ -20,6 +20,7 @@
 }
 
 .galleryGrid {
+    /* två rader gör det möjligt att visa många produkter utan galleriet tar över sidan */
   display: grid;
 
   grid-auto-flow: column;
