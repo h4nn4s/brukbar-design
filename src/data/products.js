@@ -7,11 +7,11 @@ import embla from "../assets/images/products/embla/embla.jpg";
 import embla2 from "../assets/images/products/embla/embla2.jpg";
 import embla3 from "../assets/images/products/embla/embla3.jpg";
 import mullbaret from "../assets/images/products/mullbaret.jpg";
-import optimal from "../assets/images/products/optimal/optimal.jpg"
-import optimal2 from "../assets/images/products/optimal/optimal2.jpg"
-import optimal3 from "../assets/images/products/optimal/optimal3.jpg"
-import optimal4 from "../assets/images/products/optimal/optimal4.jpg"
-import optimal5 from "../assets/images/products/optimal/optimal5.jpg"
+import optimal from "../assets/images/products/optimal/optimal.jpg";
+import optimal2 from "../assets/images/products/optimal/optimal2.jpg";
+import optimal3 from "../assets/images/products/optimal/optimal3.jpg";
+import optimal4 from "../assets/images/products/optimal/optimal4.jpg";
+import optimal5 from "../assets/images/products/optimal/optimal5.jpg";
 
 
 // produktinfo ligger lokalt pga sidan i nuläget inte behöver en databas eller ett backend
