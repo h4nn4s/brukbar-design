@@ -22,12 +22,9 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-
+  align-items: flex-start;
   padding: 1rem 4rem;
-
   color: #b11d1d;
-
   font-size: 0.95rem;
 }
 

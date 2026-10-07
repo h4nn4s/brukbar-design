@@ -9,6 +9,7 @@ function ProductViewer({ product }) {
     <section className={styles.viewer}>
       <div className={styles.images}>
         <img
+          key={selectedImage}
           src={selectedImage}
           alt={product.name}
           className={styles.mainImage}
