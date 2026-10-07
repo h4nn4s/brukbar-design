@@ -10,6 +10,7 @@ function ProductSection({
   view,
   setView,
 }) {
+  
   // samlar sidans olika vyer här för att hålla navigationen enkel: startsida, produkter och om oss
   return (
     <>

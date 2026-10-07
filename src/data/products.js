@@ -1,10 +1,17 @@
 import pari from "../assets/images/products/pari.jpg";
-import kolme from "../assets/images/products/kolme.jpg";
-import kolme2 from "../assets/images/products/kolme2.jpg";
-import kolme3 from "../assets/images/products/kolme3.jpg";
-import kolme4 from "../assets/images/products/kolme4.jpg";
-import embla from "../assets/images/products/embla.jpg";
+import kolme from "../assets/images/products/kolme/kolme.jpg";
+import kolme2 from "../assets/images/products/kolme/kolme2.jpg";
+import kolme3 from "../assets/images/products/kolme/kolme3.jpg";
+import kolme4 from "../assets/images/products/kolme/kolme4.jpg";
+import embla from "../assets/images/products/embla/embla.jpg";
+import embla2 from "../assets/images/products/embla/embla2.jpg";
+import embla3 from "../assets/images/products/embla/embla3.jpg";
 import mullbaret from "../assets/images/products/mullbaret.jpg";
+import optimal from "../assets/images/products/optimal/optimal.jpg"
+import optimal2 from "../assets/images/products/optimal/optimal2.jpg"
+import optimal3 from "../assets/images/products/optimal/optimal3.jpg"
+import optimal4 from "../assets/images/products/optimal/optimal4.jpg"
+import optimal5 from "../assets/images/products/optimal/optimal5.jpg"
 
 
 // produktinfo ligger lokalt pga sidan i nuläget inte behöver en databas eller ett backend
@@ -20,13 +27,14 @@ const products = [
     id: 2,
     name: "Pari",
     image: pari,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  },
+    description: "Pari ingår i samma serie som vår populära Kolme och Yksi. Denna har som namnet antyder två lampor och formen följer de två ljuspunkterna.",
+},
   {
     id: 3,
     name: "Embla",
     image: embla,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    images: [embla, embla2, embla3],
+    description: "En klassisk form med nya detaljer. Skärm av linnetyg med tryckknappar. Överdelen har perforerade hål vilket ger ett vacker ljusspel i taket.",
   },
   {
     id: 4,
@@ -36,10 +44,11 @@ const products = [
   },
   {
     id: 5,
-    name: "Kolme",
-    image: kolme,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  },
+    name: "Optimal",
+    image: optimal,
+    images: [optimal, optimal2, optimal3, optimal4, optimal5],
+    description: "Optimal är ett hjälpmedel som höjer upp möbler. Benhöjaren passar till många olika storlekar på möbelben, medar och sockel, tack vare det stora innermåttet på 8x10,5 cm. Optimal går att använda i tre olika höjder 6-7,5-9 cm. Benhöjaren Optimal produceras och säljs av Gula Rehab www.gulare.com",
+ },
   {
     id: 6,
     name: "Pari",
