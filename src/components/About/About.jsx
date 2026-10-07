@@ -6,16 +6,17 @@ function About() {
     <ContentPanel
       image={aboutImage}
       title="Om Brukbar Design"
+      variant="about"
     >
-      <p>
-        Brukbar Design utvecklar och tillverkar belysningsarmaturer med fokus
-        på funktion, kvalitet och tidlös formgivning.
+      <p>Rätt form. Rätt funktion. Rätt konsult.
+        <br />
+        <br />
+        Brukbar Design är Kristina Tell och Ida Ersmyre, vi träffades när vi studerade till designingenjörer. Kristina är också utbildad arbetsterapeut och har flera års erfarenhet av bland annat hjälpmedel, ergonomi och design för alla. Ida har under flera år arbetat med mekanikkonstruktion.
+        <br />
+        <br />
+        Våra uppdrag varierar i storlek och område, den gemensamma nämnaren är nya, innovativa idéer som uppfyller kundens förväntningar.
       </p>
 
-      <p>
-        Genom nära samarbete med kunder och arkitekter skapas lösningar som
-        fungerar lika bra i offentliga miljöer som i privata projekt.
-      </p>
     </ContentPanel>
   );
 }

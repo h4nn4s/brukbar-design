@@ -89,3 +89,10 @@
     max-width: 100%;
   }
 }
+
+.about .info {
+  flex: 1;
+  max-width: none;
+  text-align: justify;
+
+}
