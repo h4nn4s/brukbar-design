@@ -1,13 +1,38 @@
-import ContentPanel from "../ContentPanel/ContentPanel";
+import { useState } from "react";
+import styles from "./ProductViewer.module.css";
 
 function ProductViewer({ product }) {
+  const images = product.images || [product.image];
+  const [selectedImage, setSelectedImage] = useState(images[0]);
+
   return (
-    <ContentPanel
-      image={product.image}
-      title={product.name}
-    >
-      <p>{product.description}</p>
-    </ContentPanel>
+    <section className={styles.viewer}>
+      <div className={styles.images}>
+        <img
+          src={selectedImage}
+          alt={product.name}
+          className={styles.mainImage}
+        />
+
+        <div className={styles.thumbnails}>
+          {images.map((image) => (
+            <button
+              key={image}
+              type="button"
+              className={image === selectedImage ? styles.selected : ""}
+              onClick={() => setSelectedImage(image)}
+            >
+              <img src={image} alt={product.name} />
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className={styles.info}>
+        <h2>{product.name}</h2>
+        <p>{product.description}</p>
+      </div>
+    </section>
   );
 }
 

@@ -2,6 +2,7 @@ import styles from "./ContentPanel.module.css";
 
 function ContentPanel({ image, title, children }) {
   // återanvänds för både produkter och Om Brukbar Design för att hålla samma struktur och utseende
+  
   return (
     <section className={styles.panel}>
       <img
