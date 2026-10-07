@@ -40,7 +40,7 @@ const products = [
     id: 4,
     name: "Mullbäret",
     image: mullbaret,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    description: "Uteplatsen tillhör bostadsrättsföreningen Mullbäret på Henrik Gjutares gata i Skövde. Kraven som fanns på hur den skulle vara utformad var bland annat att den skulle vara lättskött, passa både gammal och ung i föreningen och tillåta flera sällskap samtidigt för olika aktiviteter. Uteplatsen blev mycket populär och bidrog till att höja värdet på lägenheterna."
   },
   {
     id: 5,
