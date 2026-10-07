@@ -17,8 +17,9 @@ function Layout({ children, view, setView }) {
         </div>
 
         <div>
-          <p>info@brukbardesign.se</p>
-          <p>+46 XX XXX XX XX</p>
+          <p>ida@brukbardesign.se</p>
+          <p>kristina@brukbardesign.se</p>
+
         </div>
       </footer>
     </div>

@@ -106,6 +106,7 @@
   line-height: 1.8;
   color: #444;
   text-align: justify;
+  white-space: pre-line;
 }
 
 @media (max-width: 900px) {

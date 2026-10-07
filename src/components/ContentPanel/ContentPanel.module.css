@@ -16,7 +16,7 @@
 
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 
-  animation: contentFadeIn 1s ease;
+  animation: contentFadeIn 3s ease;
 }
 
 @keyframes contentFadeIn {
@@ -66,9 +66,10 @@
 }
 
 .info p {
-  font-size: 1rem;
+  font-size: 0.85rem;
   line-height: 1.8;
   color: #444;
+  
 }
 
 /* på mindre skärmar staplas bild + text för att behålla en tydlig layout */
